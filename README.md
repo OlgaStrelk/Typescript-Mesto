@@ -31,7 +31,7 @@ https://olgastrelk.github.io/mesto/
  an interactive single page application where you can add photos, delete them and like them.
 ### Review
 
-* The application is implemented using three languages: HTML, CSS and native JS.
+* The application is implemented using three languages: HTML, CSS and Typescript.
 * Semantic layout
 * Responsive layout
 * File structure organized by BEM
