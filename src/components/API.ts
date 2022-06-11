@@ -3,7 +3,7 @@ class Api {
     private _baseUrl: string;
     constructor({ baseUrl, headers }) {
         this._headers = headers;
-        this._baseUrl = baseUrl;
+        this._baseUrl = baseUrl; 
     }
 
     getProfile() {
