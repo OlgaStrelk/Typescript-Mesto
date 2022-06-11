@@ -1,4 +1,4 @@
-class Api {
+class Api { 
     private _headers: HeadersInit; 
     private _baseUrl: string;
     constructor({ baseUrl, headers }) {
