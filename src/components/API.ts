@@ -38,7 +38,7 @@ class Api {
                 link,
             }),
         }).then((res) => (res.ok ? res.json() : Promise.reject(res.status)));
-    }
+    } 
 
     deleteCard(id) {
         return fetch(`${this._baseUrl}/cards/${id}`, {
