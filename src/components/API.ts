@@ -4,7 +4,7 @@ class Api {
     constructor({ baseUrl, headers }) {
         this._headers = headers;
         this._baseUrl = baseUrl; 
-    } 
+    }
 
     getProfile() {
         return fetch(`${this._baseUrl}/users/me`, {
