@@ -1,4 +1,4 @@
-import { Popup } from "./Popup.js";
+import { Popup } from "./Popup";
 
 interface InputList extends HTMLInputElement {
     name: string;

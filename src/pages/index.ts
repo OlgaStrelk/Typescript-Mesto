@@ -46,7 +46,7 @@ formProfileValidator.enableValidation();
 formCardValidator.enableValidation();
 formUserPicValidator.enableValidation();
 
-type Card = { 
+type TCard = { 
   name: string; 
   link: string; 
   likes?: any; 
@@ -56,7 +56,7 @@ type Card = {
 }
 
 
-const createCard = (data: Card): Element => {
+const createCard = (data: TCard): Element => {
     const card = new Card(
         data,
         "#card-template",
@@ -105,12 +105,12 @@ const renderCard = (data): void => {
   section.addItem(card);
 };
 
-type Profile = { 
+type TProfile = { 
   name: string; 
   occupation: string; }
 
 
-const submitProfileForm = (data: Profile): void => {
+const submitProfileForm = (data: TProfile): void => {
     const { name, occupation } = data;
     api.editProfile(name, occupation)
         .then((res) => {
