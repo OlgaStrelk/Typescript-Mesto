@@ -2,7 +2,7 @@
 интерактивная страница, куда можно добавлять фотографии, удалять их и ставить лайки.
 
 пока находится на доработке [как это будет выглядеть?](https://olgastrelk.github.io/mesto/) 
-##### scroll down for english version 
+##### scroll down for english version  
 ### Обзор
 
 * Приложение реализовано с использованием трех языков: HTML, CSS и Typescript. 
